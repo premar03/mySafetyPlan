@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="mySafetyPlan.css">
+<meta charset="UTF-8">
+<title>My Safety Toolkit</title>
+</head>
+
+<body>
+
+<main>
+    <h1>My Safety Map</h1>
+    <p>Fill out the form below to create a new Safety Map. Want to know more about the Safety Map and how to use it? Click <a>here</a></p>
+    <div id="summary" class="mt-5"></div>   
+ <form class="safetyplan" id = "safetyForm">
+            <fieldset>
+                <label for="warningSigns">Warning Signs<textarea id="warningSigns" placeholder="What are some signs that let you know you might be entering into a crisis?"></textarea></label>
+                <label for="copingStrategies">Internal Coping Strategies<textarea id="copingStrategies" placeholder="List 3 - 5 coping strategies that work for you"></textarea></label>
+                <label for="distractions"> Settings, People, or Activities that Provide a Distraction<textarea id="distractions"  placeholder="List 3 - 5 people, places, or things that can provide a distraction"></textarea></label>
+                <label for="crisisContacts">People I Can Reach Out to When in Crisis <textarea id="crisisContacts" placeholder="Who are you some people you feel comfortable talking to about your mental health?"></textarea></label>
+                <label for="professionalSupports"> Professionals or Agencies Who Can Support Me During Crisis <textarea id ="professionalSupports" placeholder="Therapists, doctors, crisis lines, etc."></textarea></label>
+               <label for="environmentSafety"> Making my Environment Safer <textarea id="environmentSafety" placeholder="Things you can do to make your physical space safer"></textarea></label>
+            </fieldset>
+    
+            <input type="submit" value="Submit">
+        </form>
+     
+</main>
+
+<script src="mySafetyMap.js"></script>
+</body>
+
